@@ -1,6 +1,9 @@
 {
   "name": "bitcore-p2p-crown",
   "version": "0.0.0",
+  "publishConfig": {
+    "tag": "next"
+  },
   "description": "Interface to the crown P2P network for bitcore",
   "author": "Crown Developers <info@crown.tech>",
   "main": "index.js",
