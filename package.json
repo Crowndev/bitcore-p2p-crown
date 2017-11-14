@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-p2p",
-  "version": "1.1.0",
-  "description": "Interface to the bitcoin P2P network for bitcore",
-  "author": "BitPay <dev@bitpay.com>",
+  "name": "bitcore-p2p-crown",
+  "version": "0.0.0",
+  "description": "Interface to the crown P2P network for bitcore",
+  "author": "Crown Developers <info@crown.tech>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,6 +11,10 @@
     "build": "gulp"
   },
   "contributors": [
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
+    },
     {
       "name": "Yemel Jardi",
       "email": "yemel@bitpay.com"
@@ -44,21 +48,21 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "crown",
     "bitcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "git://github.com/Crowndev/bitcore-p2p-crown.git"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.7",
+    "bitcore-lib-crown": "0.1.0",
     "bloom-filter": "^0.2.0",
     "buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build-crown": "zhanzhenzhen/bitcore-build-crown",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
