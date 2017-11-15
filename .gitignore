@@ -1,9 +1,9 @@
-*.sw[a-z]
-coverage
-node_modules
-
-npm-debug.log
-tests.js
-
-report
 .DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.log
+/node_modules
+
+/coverage
