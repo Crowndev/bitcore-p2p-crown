@@ -7,7 +7,7 @@ Network magic has been adjusted.
 
 "integration/bitcoind.js" seems completely useless, but is still kept.
 
-In the Dash fork, a line is added to "lib/messages/index.js":
+In the Dash fork, a line is added to `_buildFromBuffer` function in "lib/messages/index.js":
 
 ```js
 if (command === 'sendheaders') return; // BIP 130, ignore 'sendheaders' command
