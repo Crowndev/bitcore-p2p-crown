@@ -1,6 +1,6 @@
 {
   "name": "bitcore-p2p-crown",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publishConfig": {
     "tag": "next"
   },
