@@ -170,7 +170,7 @@ describe('Messages', function() {
         var bufs = buildMessage(invalidCommand);
         messages.parseBuffer(bufs);
       };
-      fails.should.throw('Unsupported message command: malicious');
+      fails.should.throw('Unrecognized message command: malicious');
     });
 
     it('ignores malformed messages', function() {
