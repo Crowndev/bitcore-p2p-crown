@@ -1,6 +1,6 @@
 {
   "name": "bitcore-p2p-crown",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "tag": "next"
   },
@@ -59,13 +59,13 @@
     "url": "git://github.com/Crowndev/bitcore-p2p-crown.git"
   },
   "dependencies": {
-    "bitcore-lib-crown": "0.2.0",
+    "bitcore-lib-crown": "0.2.1",
     "bloom-filter": "^0.2.0",
     "buffers": "^0.1.1",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build-crown": "zhanzhenzhen/bitcore-build-crown",
+    "bitcore-build-crown": "0.1.0",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
