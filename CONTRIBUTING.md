@@ -5,7 +5,7 @@ This repo, bitcore-p2p-crown, is based on the `7bb9afd416ee0033afd3a06bcc3afc151
 
 Network magic has been adjusted.
 
-In "lib/messages/builder.js" the default `options.protocolVersion` is changed from 70000 to 70051.
+In "lib/messages/builder.js" the default `options.protocolVersion` is changed from 70000 to 70052.
 
 Added support for "dsq" and "ssc" commands.
 
